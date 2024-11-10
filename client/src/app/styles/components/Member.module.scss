@@ -1,0 +1,56 @@
+.member-wrapper{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    $radius: 15px;
+
+    position: relative;
+    width: 80px;
+    aspect-ratio: 1;
+
+    margin: 14px;
+
+    border-top: 1px solid #00CC99;
+    border-bottom: 1px solid #6600FF;
+    border-right: 1px solid #6600FF;
+    border-left: 1px solid #00CC99;
+
+    border-radius: $radius;
+
+    cursor: pointer;
+
+    .image-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 95%;
+        height: 95%;
+
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+
+        border-radius: $radius;
+    }
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 100%;
+        aspect-ratio: auto 32 / 32;
+
+        border-radius: $radius;
+    }
+
+    transition: all 0.4s;
+    &:hover{
+        transform: scale(1.05);
+        z-index: 5;
+        .image-wrapper, img {
+            z-index: 10;
+        }
+    }
+}

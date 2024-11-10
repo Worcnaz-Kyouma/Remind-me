@@ -1,0 +1,58 @@
+.found-user-wrapper{
+    display: flex;
+    justify-content: space-around;
+
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    border-radius: 8px;
+
+    margin: 15px auto;
+
+    padding: 10px 0px;
+    
+    width: 85%;
+
+    cursor: pointer;
+
+    transition: all 0.4s;
+
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.218);
+    }
+
+    .img-relative-wrapper{
+        position: relative;
+        width: 100px;
+        height: 110px;
+
+        border: 2px dotted rgba(0, 0, 0, 0.384);
+        border-radius: 8px;
+
+        padding: 7px;
+
+        .image-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 85%;
+            height: 85%;
+    
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+    
+            border-radius: 16px;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+        
+                width: 100%;
+                aspect-ratio: auto 32 / 32;
+        
+                border-radius: 16px;
+            }
+        }
+    }
+}

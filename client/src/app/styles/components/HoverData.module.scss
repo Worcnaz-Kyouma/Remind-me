@@ -1,0 +1,81 @@
+.hover-wrapper{
+    position: absolute;
+    top: -5px;
+
+    min-height: 105%;
+
+    border-top: 2px solid #00CC99;
+    border-bottom: 2px solid #6600FF;
+    border-right: 2px solid #6600FF;
+    border-left: 2px solid #00CC99;
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.218);
+
+    p {
+        max-width: 80%;
+        word-wrap: break-word;
+    }
+
+    background-color: white;
+
+    animation: appearleft 0.3s ease-out forwards;
+    
+    @keyframes appearleft {
+        from{
+            width: 0%;
+            opacity: 0;
+        }
+        to{
+            width: 500%;
+            opacity: 1;
+        }
+    }
+}
+
+.hover-wrapper:not(.left){
+    left: -10px;
+    padding-left: 130%;
+
+    animation: appearright 0.3s ease-out forwards;
+    
+    @keyframes appearright {
+        from{
+            width: 0%;
+            opacity: 0;
+        }
+        to{
+            width: 450%;
+            opacity: 1;
+        }
+    }
+}
+
+.hover-wrapper.left {
+    right: -10px;
+    padding-right: 50%;
+    padding-left: 30px;
+}
+
+.hover-wrapper.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    p {
+        padding-left: 5px;
+    }
+
+    animation: appearprofile 0.3s ease-out forwards;
+
+    @keyframes appearprofile {
+        from{
+            width: 0%;
+            opacity: 0;
+        }
+        to{
+            width: 300%;
+            opacity: 1;
+        }
+    }
+}
