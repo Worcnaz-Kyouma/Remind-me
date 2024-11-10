@@ -1,21 +1,3 @@
-<p align="center"><img src="https://raw.githubusercontent.com/Nicolas-Prado/Remind-mme/main/iconMM.png" width="30%" height="20%"></p>
-
-## Proposta do projeto/desafio
-Problema: PROPOSTA A
-
-Aqui somos um time muito unido e integrado, gostamos de nos comunicar, porém somos esquecidos. :(
-
-Você pode nos ajudar criando um sisteminha que permita a armazenagem do nome, email e telefone de cada pessoa do time?
- 
-Vai ser legal se você criar uma aplicação em Node + React/Angular, mas fique livre para escolher suas tecnologias. No banco, você pode usar NeDB para facilitar. 
-
-Alguns pontos importantes:
-- Use sua criatividade, valorizamos muito o frontend e a experiência;
-- Não se esqueça das validações;
-- Faça um CRUD completo.
-
-
-
 ## Sobre a implementação
 
 O sistema consiste em 2 partes: 
