@@ -39,7 +39,7 @@ Back-end:
 
 ## Descrição da solução
 
-<p align="center" style="margin:50px;"><img src="https://raw.githubusercontent.com/Nicolas-Prado/Remind-mme/main/iconRMM.png?width=989&height=347" width="50%" height="40%"></p>
+<p align="center" style="margin:50px;"><img src="https://raw.githubusercontent.com/Worcnaz-Kyouma/Remind-me/main/iconRMM.png?width=989&height=347" width="50%" height="40%"></p>
 
 Com base nos requisitos, nós da Remind-mme Company implementamos um sistema completo que conta com:
 - Criação de usuários específicos, com login e senha.
